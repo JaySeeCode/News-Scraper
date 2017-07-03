@@ -1,0 +1,24 @@
+{
+  "name": "news-scraper",
+  "version": "1.0.0",
+  "description": "A web app that lets visitors leave comments on the latest news, which are scraped using cheerio package for node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaySeeCode/News-Scraper.git"
+  },
+  "author": "Jc Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaySeeCode/News-Scraper/issues"
+  },
+  "homepage": "https://github.com/JaySeeCode/News-Scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.0"
+  }
+}
