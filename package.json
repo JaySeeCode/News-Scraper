@@ -1,24 +1,22 @@
 {
-  "name": "news-scraper",
+  "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "A web app that lets visitors leave comments on the latest news, which are scraped using cheerio package for node",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JaySeeCode/News-Scraper.git"
-  },
-  "author": "Jc Gonzalez",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JaySeeCode/News-Scraper/issues"
-  },
-  "homepage": "https://github.com/JaySeeCode/News-Scraper#readme",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.1",
-    "express": "^4.15.3",
-    "mongoose": "^4.11.0"
+    "body-parser": "^1.15.0",
+    "cheerio": "^0.20.0",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.4.6",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0",
+    "request": "^2.69.0"
   }
 }
