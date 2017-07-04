@@ -1,12 +1,4 @@
-/* Scrape and Display (18.3.8)
- * (If you can do this, you should be set for your hw)
- * ================================================== */
-
-// STUDENTS:
-// Please complete the routes with TODOs inside.
-// Your specific instructions lie there
-
-// Good luck!
+/* ================================================== */
 
 // Dependencies
 const express = require("express");
@@ -33,7 +25,7 @@ var APIRoutes = require('./routes/api-routes.js');
 // Set mongoose to leverage built in JavaScript ES6 Promises
 mongoose.Promise = Promise;
 
-// Use morgan and body parser with our app
+//Use morgan and body parser with our app
 app.use(logger("dev"));
 app.use(bodyParser.urlencoded({
   extended: false
@@ -42,11 +34,9 @@ app.use(bodyParser.urlencoded({
 // Make public a static dir
 app.use(express.static("public"));
 
-
 //Bringing in our routes
 // htmlRoutes(app);
 APIRoutes(app);
-
 
 
 // Listen on port 3000
